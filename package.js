@@ -2,7 +2,7 @@ Package.describe({
   name: 'liangcc:fakeuser',
   summary: 'Dump 20 fake users to Meteor.users. Happy prototyping!',
   version: '0.0.1',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/ChihChengLiang/liangcc-fakeusers'
 });
 
 Package.onUse(function(api) {
