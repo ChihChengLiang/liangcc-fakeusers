@@ -7,12 +7,13 @@ if (Meteor.isServer) {
         },
         function (err, data) {
           if (!err) {
-            fakeusers = JSON.parse(data.content).results;
+            var fakeusers = JSON.parse(data.content).results;
             try {
               fakeusers.forEach(function (user) {
-                Meteor.users.insert(user)
+                Meteor.users.insert(user);
               });
-              console.log(fakeusers.length + ' users added to Meteor.users');
+              var msg=fakeusers.length + ' users added to Meteor.users';
+              console.log(msg);
             } catch (err2) {
               console.log('Oops! insert error' + err2);
             }
@@ -22,4 +23,5 @@ if (Meteor.isServer) {
         });
     }
   });
+  
 }
