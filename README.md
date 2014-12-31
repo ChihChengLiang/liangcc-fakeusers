@@ -1,5 +1,8 @@
 # fakeuser
 
+[![Build Status](https://travis-ci.org/ChihChengLiang/liangcc-fakeusers.svg)](https://travis-ci.org/ChihChengLiang/liangcc-fakeusers)
+
+
 Powered by [https://randomuser.me/documentation](https://randomuser.me/documentation), this package created 20 fake users to your meteor users collection.
 
 See how can you do with this package. [http://fakeuser.meteor.com/](http://fakeuser.meteor.com/)
